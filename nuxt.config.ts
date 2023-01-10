@@ -1,9 +1,13 @@
 import { colors } from '@unocss/preset-mini'
+import { createResolver } from '@nuxt/kit'
+
+const { resolve } = createResolver(import.meta.url)
 
 export default defineNuxtConfig({
 	colorMode: {
 		classSuffix: '',
 	},
+	css: [resolve('./src/assets/css/globals.css')],
 	extends: 'oxecore',
 	googleFonts: {
 		download: true,
