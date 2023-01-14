@@ -6,6 +6,11 @@ html {
 body {
     -webkit-tap-highlight-color: transparent;
 	font-family: 'Nunito', sans-serif;
+	@apply bg-slate-100 text-body;
+}
+
+.dark body {
+	@apply bg-neutral-900;
 }
 
 *, *:focus {
