@@ -28,6 +28,7 @@ export default defineNuxtConfig({
 				'hover:bg-slate-200/25 !active:bg-slate-200/50 dark:(hover:bg-neutral-700/25 !active:bg-neutral-700/50)',
 			'text-link': 'font-bold text-primary',
 			'bg-surface': 'bg-white dark:bg-neutral-800',
+			'bg-glass-surface': 'bg-white/90 dark:bg-neutral-800/90',
 		},
 		theme: {
 			colors: {
