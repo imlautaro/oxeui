@@ -34,7 +34,7 @@ const classes = computed(() => {
 
 <template>
 	<Stack :class="classes" class="p-6 rounded-2xl" gap="4">
-		<Icon :name="icon" />
+		<Icon class="text-base" :name="icon" />
 		<div class="flex-1">
 			<slot />
 		</div>

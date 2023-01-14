@@ -27,7 +27,7 @@ const show = ref(false)
 		>
 			<Icon
 				v-if="icon"
-				class="absolute top-1/2 transform -translate-y-1/2 left-4 text-secondary"
+				class="absolute top-1/2 transform -translate-y-1/2 left-4 text-base text-secondary"
 				:name="icon"
 			/>
 			<input
@@ -49,7 +49,7 @@ const show = ref(false)
 			<div
 				v-if="type === 'password'"
 				@click.prevent="show = !show"
-				class="toggle-btn cursor-pointer flex p-2 -mx-2 absolute top-1/2 transform -translate-y-1/2 right-4 rounded-lg"
+				class="toggle-btn cursor-pointer flex p-2 -mx-2 absolute text-base top-1/2 transform -translate-y-1/2 right-4 rounded-lg"
 			>
 				<Icon
 					:name="show ? 'lucide:eye' : 'lucide:eye-off'"

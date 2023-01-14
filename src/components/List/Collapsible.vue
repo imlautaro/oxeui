@@ -20,15 +20,17 @@ onMounted(() => {
 			<div
 				class="flex p-2 rounded-full bg-primary-600/5 text-primary-600 dark:(bg-primary-400/5 text-primary-400) -m-2"
 			>
-				<Icon v-if="icon" :name="icon" />
-				<Icon v-else name="lucide:paperclip" />
+				<Icon
+					class="text-base"
+					:name="icon ? icon : 'lucide:paperclip'"
+				/>
 			</div>
 		</template>
 		{{ title }}
 		<template #end-icon>
 			<Icon
 				name="lucide:chevron-down"
-				class="duration-200 text-secondary transform"
+				class="duration-200 text-base text-secondary transform"
 				:class="{ 'rotate-180': expand }"
 			/>
 		</template>

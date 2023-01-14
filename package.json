@@ -1,7 +1,7 @@
 {
 	"name": "oxeui",
 	"type": "module",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"main": "./nuxt.config.ts",
 	"scripts": {
 		"dev": "nuxi prepare & nuxi dev .playground",

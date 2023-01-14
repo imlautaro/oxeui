@@ -16,11 +16,12 @@ defineProps<{ icon?: string; endIcon?: string; active?: boolean }>()
 			v-if="icon"
 			:class="active ? 'text-primary' : 'text-secondary'"
 			:name="icon"
+			class="text-base"
 		/>
 		<span class="flex-1 w-full">
 			<slot />
 		</span>
 		<slot name="end-icon" />
-		<Icon v-if="endIcon" class="text-secondary" :name="endIcon" />
+		<Icon v-if="endIcon" class="text-base text-secondary" :name="endIcon" />
 	</NuxtLink>
 </template>
