@@ -7,7 +7,8 @@ withDefaults(
 	defineProps<{
 		type?: string
 		modelValue: string
-		label: string
+		label?: string
+		placeholder?: string
 		icon?: string
 		hint?: string
 		error?: string
@@ -20,7 +21,7 @@ const show = ref(false)
 
 <template>
 	<Stack gap="2" vertical>
-		<label :for="id">{{ label }}: </label>
+		<label v-if="label" :for="id">{{ label }}: </label>
 		<div
 			class="bg-slate-100 dark:(bg-neutral-900 border-neutral-700) border-2 relative rounded-2xl"
 		>
@@ -43,7 +44,7 @@ const show = ref(false)
 				:type="
 					type === 'password' ? (show ? 'text' : 'password') : type
 				"
-				:placeholder="label"
+				:placeholder="placeholder ? placeholder : label"
 			/>
 			<div
 				v-if="type === 'password'"
