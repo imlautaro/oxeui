@@ -10,13 +10,13 @@
 		"preview": "nuxi preview .playground"
 	},
 	"devDependencies": {
-		"@types/uuid": "^9.0.0",
-		"nuxt": "^3.0.0"
+		"@types/uuid": "^9.0.1",
+		"nuxt": "^3.2.2"
 	},
 	"dependencies": {
 		"@nuxtjs/color-mode": "^3.2.0",
 		"@nuxtjs/google-fonts": "3.0.0-1",
-		"oxecore": "^0.0.1",
+		"oxecore": "^0.0.2",
 		"uuid": "^9.0.0"
 	}
 }
