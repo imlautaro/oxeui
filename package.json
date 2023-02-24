@@ -1,7 +1,7 @@
 {
 	"name": "oxeui",
 	"type": "module",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"main": "./nuxt.config.ts",
 	"scripts": {
 		"dev": "nuxi prepare & nuxi dev .playground",
@@ -16,7 +16,7 @@
 	"dependencies": {
 		"@nuxtjs/color-mode": "^3.2.0",
 		"@nuxtjs/google-fonts": "3.0.0-1",
-		"oxecore": "^0.0.2",
+		"oxecore": "^0.0.3",
 		"uuid": "^9.0.0"
 	}
 }

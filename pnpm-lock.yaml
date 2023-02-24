@@ -5,13 +5,13 @@ specifiers:
   '@nuxtjs/google-fonts': 3.0.0-1
   '@types/uuid': ^9.0.1
   nuxt: ^3.2.2
-  oxecore: ^0.0.2
+  oxecore: ^0.0.3
   uuid: ^9.0.0
 
 dependencies:
   '@nuxtjs/color-mode': 3.2.0
   '@nuxtjs/google-fonts': 3.0.0-1
-  oxecore: 0.0.2_nuxt@3.2.2
+  oxecore: 0.0.3_nuxt@3.2.2
   uuid: 9.0.0
 
 devDependencies:
@@ -3586,9 +3586,8 @@ packages:
     resolution: {integrity: sha512-D2FR03Vir7FIu45XBY20mTb+/ZSWB00sjU9jdQXt83gDrI4Ztz5Fs7/yy74g2N5SVQY4xY1qDr4rNddwYRVX0g==}
     engines: {node: '>=0.10.0'}
 
-  /oxecore/0.0.2_nuxt@3.2.2:
-    resolution: {integrity: sha512-BKU35tFV1CUVRGxenXgfWRI12netH7ldhpiRHRC2DMzEGrtXSx3DXPIf2m/QV7Ot2HexIa1hH3ywaOTNHP0Dlg==}
-    requiresBuild: true
+  /oxecore/0.0.3_nuxt@3.2.2:
+    resolution: {integrity: sha512-22b9DEuczMJVcE7G+wXDdfQyKUjPlkfLTmOGyn+kzFUnTfsHnYGZ8eiyXJv7ozGKBTgsEt/Zn/FOaQ4AlHkyoA==}
     dependencies:
       '@unocss/nuxt': 0.50.1
       '@vueuse/core': 9.13.0
